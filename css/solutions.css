@@ -8,19 +8,19 @@
 /* eser 2 solution */
 .ex-2-square:active{
   width: 100%;
-  transition: 3s ease;
+  transition: 3s;
 }
 
 /* eser 3 solution */
 .ex-3-square:hover{
   border-radius: 50%;
-  transition: 0.5s ease;
+  transition: 0.5s;
 }
 
 /* eser 4 solution */
 .ex-4-square:hover{
   opacity: 0;
-  transition: 1s ease;
+  transition: 1s;
 }
 
 /* eser 5 solution */
@@ -52,6 +52,27 @@
   border-radius: 20px;
   transition: 2s;
 }
+
+/* eser 9 solution */
+.ex-9-img:hover{
+  filter: grayscale(1);
+  filter: sepia(0.5);
+  transform: scale(1.5);
+  border-radius: 20px;
+  transition: 2s;
+}
+
+/* eser 10 solution */
+.ex-10-icon {
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+
 
 
 
