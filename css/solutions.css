@@ -67,10 +67,55 @@
   animation: rotate 1s linear infinite;
 }
 @keyframes rotate {
-    0% {
-        transform: rotate(1turn);
-    }
+  0% {
+      transform: rotate(1turn);
+  }
 }
+
+/* eser 11 solution */
+.ex-11-icon:hover{
+  animation: rotate2 2s linear;
+}
+@keyframes rotate2 {
+  90% {
+    transform: rotate(0.75turn);
+  }
+  100% {
+      transform: rotate(0);
+  }
+}
+
+/* eser 12 solution */
+.ex-12-button:hover .ex-12-top-white {
+  animation: button1top 2s linear;
+}
+@keyframes button1top {
+  0% {
+      left: 10%;
+  }
+  50% {
+      left: 65%;
+  }
+  100% {
+      left: 10%;
+  }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: button1bottom 2s linear;
+}
+@keyframes button1bottom {
+  0% {
+      right: 20%;
+  }
+  50% {
+      right: 65%;
+  }
+  100% {
+      right: 20%;
+  }
+}
+
+
 
 
 
