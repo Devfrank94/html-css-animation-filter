@@ -38,5 +38,20 @@
   filter: grayscale(1);
 }
 
+/* eser 7 solution */
+.ex-7-img:hover{
+  filter: grayscale(1);
+  filter: sepia(0.5);
+  transition: 1s;
+}
+
+/* eser 8 solution */
+.ex-8-img:hover{
+  filter: grayscale(1);
+  filter: sepia(0.5);
+  border-radius: 20px;
+  transition: 2s;
+}
+
 
 
