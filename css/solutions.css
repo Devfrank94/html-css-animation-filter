@@ -1,0 +1,14 @@
+
+/* eser 1 solution */
+.ex-1-square:hover{
+  background-color: red;
+  transition: 2s;
+}
+
+/* eser 2 solution */
+.ex-2-square:active{
+  width: 100%;
+  transition: 3s ease;
+}
+
+/* eser 3 solution */
